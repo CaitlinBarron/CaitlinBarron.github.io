@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<link rel="stylesheet" href="index.css">
+	<title>It's all about Caitlin</title>
+</head>
+<body>
+<div class="topnav" id="navbar">
+	<a class="active" href="index.html">Home</a>
+	<a class="navbtn" href="contact.html">Contact</a>
+	<a class="navbtn" href="#about">About</a>
+
+	<div class="dropdown">
+		<a class="navbtn" href="#projects">Projects</a>
+		<div class="dropdown-content">
+			<a href="#1">1</a>
+			<a href="#2">2</a>
+			<a href="#3">3</a>
+		</div>
+	</div>
+</div>
+<div class="main">
+	<h1>Heading test</h1>
+	<p>paragraph test paragraph test paragraph test paragraph test paragraph testparagraph testparagraphparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph paragraph test paragraph test paragraph test paragraph test paragraph test paragraph test paragraph testparagraph testparagraph testparagraph testparagraph testparagraphparagraph paragraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testvparagraph testparagraph testparagraph testparagraph testvparagraph testvparagraph testparagraph testparagraph v v paragraph testvvparagraph testparagraph testvparagraph vparagraph testvvparagraph testvparagraph vvvvparagraph testparagraph testparagraph testparagraph testparagraph testvvvparagraph testvvvv v paragraph testparagraph testparagraph test</p>
+	<p>paragraph test paragraph test paragraph test paragraph test paragraph testparagraph testparagraphparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph paragraph test paragraph test paragraph test paragraph test paragraph test paragraph test paragraph testparagraph testparagraph testparagraph testparagraph testparagraphparagraph paragraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testvparagraph testparagraph testparagraph testparagraph testvparagraph testvparagraph testparagraph testparagraph v v paragraph testvvparagraph testparagraph testvparagraph vparagraph testvvparagraph testvparagraph vvvvparagraph testparagraph testparagraph testparagraph testparagraph testvvvparagraph testvvvv v paragraph testparagraph testparagraph test</p>
+	<p>paragraph test paragraph test paragraph test paragraph test paragraph testparagraph testparagraphparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph paragraph test paragraph test paragraph test paragraph test paragraph test paragraph test paragraph testparagraph testparagraph testparagraph testparagraph testparagraphparagraph paragraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testvparagraph testparagraph testparagraph testparagraph testvparagraph testvparagraph testparagraph testparagraph v v paragraph testvvparagraph testparagraph testvparagraph vparagraph testvvparagraph testvparagraph vvvvparagraph testparagraph testparagraph testparagraph testparagraph testvvvparagraph testvvvv v paragraph testparagraph testparagraph test</p>
+	<p>paragraph test paragraph test paragraph test paragraph test paragraph testparagraph testparagraphparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph paragraph test paragraph test paragraph test paragraph test paragraph test paragraph test paragraph testparagraph testparagraph testparagraph testparagraph testparagraphparagraph paragraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testvparagraph testparagraph testparagraph testparagraph testvparagraph testvparagraph testparagraph testparagraph v v paragraph testvvparagraph testparagraph testvparagraph vparagraph testvvparagraph testvparagraph vvvvparagraph testparagraph testparagraph testparagraph testparagraph testvvvparagraph testvvvv v paragraph testparagraph testparagraph test</p>
+	<p>paragraph test paragraph test paragraph test paragraph test paragraph testparagraph testparagraphparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph paragraph test paragraph test paragraph test paragraph test paragraph test paragraph test paragraph testparagraph testparagraph testparagraph testparagraph testparagraphparagraph paragraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testvparagraph testparagraph testparagraph testparagraph testvparagraph testvparagraph testparagraph testparagraph v v paragraph testvvparagraph testparagraph testvparagraph vparagraph testvvparagraph testvparagraph vvvvparagraph testparagraph testparagraph testparagraph testparagraph testvvvparagraph testvvvv v paragraph testparagraph testparagraph test</p>
+	<p>paragraph test paragraph test paragraph test paragraph test paragraph testparagraph testparagraphparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph paragraph test paragraph test paragraph test paragraph test paragraph test paragraph test paragraph testparagraph testparagraph testparagraph testparagraph testparagraphparagraph paragraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testparagraph testvparagraph testparagraph testparagraph testparagraph testvparagraph testvparagraph testparagraph testparagraph v v paragraph testvvparagraph testparagraph testvparagraph vparagraph testvvparagraph testvparagraph vvvvparagraph testparagraph testparagraph testparagraph testparagraph testvvvparagraph testvvvv v paragraph testparagraph testparagraph test</p>
+</div>
+</body>
+<script type="text/javascript">
+	// Get the container element
+var btnContainer = document.getElementById("navbar");
+
+// Get all buttons with class="btn" inside the container
+var btns = btnContainer.getElementsByClassName("navbtn");
+
+// Loop through the buttons and add the active class to the current/clicked button
+
+for (var i = 0; i < btns.length; i++) 
+{
+  btns[i].addEventListener("click", function() 
+  {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace("active", "navbtn");
+    this.className = "active";
+  });
+}
+</script>
+</html>
+
