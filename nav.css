@@ -23,6 +23,7 @@
 {
 	background-color: #189C7D;
 	color: white;
+	font-weight: bolder;
 }
 
 .topnav .navbtn
@@ -35,7 +36,7 @@
 {
 	background-color: #189C7D;
 	color: white;
-	font-weight: bold;
+	font-weight: bolder;
 }
 
 p
