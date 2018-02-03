@@ -3,9 +3,44 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
-	<link rel="stylesheet" href="contact.css">
+	<link rel="stylesheet" href="index.css">
+	<script     src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<title>It's all about Caitlin</title>
 </head>
+<body>
+<div class="topnav" id="navbar">
+	<a class="active" href="#home">Home</a>
+	<a class="navbtn" href="contact.html">Contact</a>
+	<a class="navbtn" href="#about">About</a>
+
+	<div class="dropdown">
+		<a class="navbtn" href="#projects">Projects</a>
+		<div class="dropdown-content">
+			<a href="#1">1</a>
+			<a href="#2">2</a>
+			<a href="#3">3</a>
+		</div>
+	</div>
+</div>
 <body>
 	<h1>TOOST</h1>
 </body>
+<script type="text/javascript">
+	// Get the container element
+var btnContainer = document.getElementById("navbar");
+
+// Get all buttons with class="btn" inside the container
+var btns = btnContainer.getElementsByClassName("navbtn");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btns.length; i++) 
+{
+  btns[i].addEventListener("click", function() 
+  {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
 </html>
