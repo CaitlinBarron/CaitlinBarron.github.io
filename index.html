@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="topnav" id="navbar">
-	<a class="active" href="#home">Home</a>
+	<a class="active" href="index.html">Home</a>
 	<a class="navbtn" href="contact.html">Contact</a>
 	<a class="navbtn" href="#about">About</a>
 
@@ -45,8 +45,8 @@ for (var i = 0; i < btns.length; i++)
   btns[i].addEventListener("click", function() 
   {
     var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
+    current[0].className = current[0].className.replace("active", "navbtn");
+    this.className = "active";
   });
 }
 </script>

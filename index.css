@@ -8,7 +8,7 @@
 	width: 100%
 }
 
-.topnav a, .navbtn
+.topnav a
 {
 	float:left;
 	color: black;
@@ -21,11 +21,18 @@
 
 .topnav a:hover, .dropdown:hover
 {
-	background-color: #b0f2e1;
+	background-color: #43F5C9;
 	color: black;
 }
 
-.topnav a.active
+.topnav .navbtn
+{
+	background-color: #C4FFF1;
+	color: black;
+}
+
+
+.topnav .active
 {
 	background-color: #43F5C9;
 	color: black;

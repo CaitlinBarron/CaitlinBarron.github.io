@@ -9,8 +9,8 @@
 </head>
 <body>
 <div class="topnav" id="navbar">
-	<a class="active" href="#home">Home</a>
-	<a class="navbtn" href="contact.html">Contact</a>
+	<a class="navbtn" href="index.html">Home</a>
+	<a class="active" href="contact.html">Contact</a>
 	<a class="navbtn" href="#about">About</a>
 
 	<div class="dropdown">
@@ -23,7 +23,9 @@
 	</div>
 </div>
 <body>
-	<h1>TOOST</h1>
+	<div class="main">
+		<h1>TOOST</h1>
+	</div>
 </body>
 <script type="text/javascript">
 	// Get the container element
@@ -38,8 +40,8 @@ for (var i = 0; i < btns.length; i++)
   btns[i].addEventListener("click", function() 
   {
     var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
+    current[0].className = current[0].className.replace("active", "navbtn");
+    this.className = "active";
   });
 }
 </script>
