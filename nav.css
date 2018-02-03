@@ -1,11 +1,11 @@
 .topnav 
 {
-	background-color: #C4FFF1;
+	background-color: #43F5C9;
 	overflow: hidden;
-	font-family: Arial;
+	font-family: 'Encode Sans';
 	position: fixed;
 	top: 0;
-	width: 100%
+	width: 75%
 }
 
 .topnav a
@@ -16,29 +16,45 @@
 	margin: 0;
 	padding: 14px 16px;
 	text-decoration: none;
-	font-size: 17px;
+	font-size: 22px;
 }
 
 .topnav a:hover
 {
-	background-color: #43F5C9;
-	color: black;
+	background-color: #189C7D;
+	color: white;
 }
 
 .topnav .navbtn
 {
-	background-color: #C4FFF1;
 	color: black;
 }
 
 
 .topnav .active
 {
-	background-color: #43F5C9;
-	color: black;
+	background-color: #189C7D;
+	color: white;
+	font-weight: bold;
+}
+
+p
+{
+	font-family: 'Montserrat';
 }
 
 .main
 {
+	border: 2px solid black;
+	width: 75%;
 	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Encode Sans';
+	background-color: #FFFFFF;
+}
+
+body
+{
+	background-color: #E5FFFA;
 }
