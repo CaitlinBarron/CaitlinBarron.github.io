@@ -7,19 +7,38 @@
 
 .column 
 {
+	position: relative;
 	display: block;
     float: left;
     width: 50%;
+    text-align: center;
 }
 
-.column.left
+.projbtn
 {
-	text-align: left;
+	position: relative;
+	z-index: 5;
+	bottom: 170px;
+	background-color: #189C7D;
+	color: white;
+	font-size: 22px;
+	padding: 12px 24px;
+	text-decoration: none;
+	border-radius: 10px;
 }
 
-.column.right
+img
 {
-	text-align: right;
+	border-radius: 15%;
+	opacity: 0.50;
+	z-index: 1;
+    filter: alpha(opacity=50);
+}
+
+.column.text
+{
+	height: 100%;
+	vertical-align: middle;
 }
 
 @media (max-width: 600px) 

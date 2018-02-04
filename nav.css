@@ -4,6 +4,7 @@
 	overflow: hidden;
 	font-family: 'Encode Sans';
 	position: fixed;
+	z-index: 30;
 	top: 0;
 	width: 75%
 }
@@ -39,20 +40,26 @@
 	font-weight: bolder;
 }
 
-p
-{
-	font-family: 'Montserrat';
-}
-
 .main
 {
 	border: 2px solid black;
 	width: 75%;
-	margin-top: 50px;
+	margin-top: 55px;
 	margin-left: auto;
 	margin-right: auto;
 	font-family: 'Encode Sans';
 	background-color: #FFFFFF;
+}
+
+h1
+{
+	font-size: 22px;
+	font-weight: bold;
+}
+
+p
+{
+	font-family: 'Montserrat';
 }
 
 body
