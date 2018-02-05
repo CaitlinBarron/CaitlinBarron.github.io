@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<link rel="stylesheet" href="nav.css">
+	<link rel="stylesheet" href="proj1.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Encode+Sans|Montserrat');
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<title>It's all about Caitlin</title>
+</head>
+
+<div class="main">
+<body>
+	<div class="topnav" id="navbar">
+		<a class="navbtn" href="index.html">Home</a>
+		<a class="navbtn" href="about.html">About</a>
+		<a class="active" href="projects.html">Projects</a>
+	</div>
+	<h1>RTS</h1>
+</body>
+</div>
+
+<script type="text/javascript">
+	// Get the container element
+var btnContainer = document.getElementById("navbar");
+
+// Get all buttons with class="btn" inside the container
+var btns = btnContainer.getElementsByClassName("navbtn");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btns.length; i++) 
+{
+  btns[i].addEventListener("click", function() 
+  {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace("active", "navbtn");
+    this.className = "active";
+  });
+}
+</script>
+</html>
+
