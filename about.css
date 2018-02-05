@@ -1,0 +1,38 @@
+.hello
+{
+	text-align: center;
+}
+
+img
+{
+	border-radius: 15%;
+}
+
+.content
+{
+	text-align: center;
+	font-family: 'Montserrat';
+}
+
+.resumebtn
+{
+	margin-left: 50%;
+ 	transform: translateX(-50%);
+	display: block;
+	z-index: 5;
+	background-color: #43F5C9;
+	color: black;
+	font-size: px;
+	padding: 14px 24px;
+	width: 10%;
+	text-decoration: none;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.resumebtn:hover
+{
+	background-color: #189C7D;
+	color: white;
+	font-weight: bolder;
+}

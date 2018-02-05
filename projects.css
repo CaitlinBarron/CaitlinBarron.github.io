@@ -21,12 +21,20 @@
 	top: 50%;
 	left: 50%;
  	transform: translateX(-50%);
-	background-color: #189C7D;
-	color: white;
+	background-color: #43F5C9;
+	color: black;
 	font-size: 22px;
 	padding: 16px 24px;
 	text-decoration: none;
 	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.projbtn:hover
+{
+	background-color: #189C7D;
+	color: white;
+	font-weight: bolder;
 }
 
 img
