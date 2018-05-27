@@ -1,0 +1,17 @@
+.title
+{
+	text-align: center;
+}
+
+img
+{
+	border-radius: 15%;
+}
+
+.content
+{
+	text-align: center;
+	font-family: 'Montserrat';
+	padding-left: 15px;
+	padding-right: 15px;
+}
